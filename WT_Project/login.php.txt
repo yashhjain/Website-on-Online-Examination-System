@@ -1,0 +1,29 @@
+
+<html>
+<head>
+<title>login as</title>
+</head>
+<link rel="stylesheet" type="text/css" href="dummy.css">
+<body>
+<?php
+include("header.php");
+?>
+
+<table width="50%"  height="50%"   border="0" >
+  <tr><td>
+<table width="40%"  height="40%"   border="0" >
+  <tr><td>
+<a href="indexs.php">login as student  </a></tr></td></table>
+</td>
+</tr>
+  <tr>
+     <td ><table width="40%"  height="40%"   border="0" >
+  <tr><td>
+
+<a href="indexa.php" >login as admin </a></tr></td></table></td>
+  </tr>
+
+
+</table>
+</body>
+</html>

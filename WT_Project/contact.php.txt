@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dummy.css">
+<title>WELCOME TO KJSIEIT SCHOLASTIC : TEST YOUR LEARNING!!!</title>
+</head>
+<body >
+
+<?php
+include("header.php");
+?>
+
+<table id="t2" border=0 align="center" width="100%" height="84%">
+<tr>
+<td width=130><FONT><b>
+<a  href="http://www.somaiya.edu/VidyaVihar/kjsieit"><img src="somaiya.jpg" height=90 width=130 > </a></font>
+<FONT><b><a href="sign.html"><img src="login.jpeg" height=90 width=130 > </a></font>
+<FONT><b><a href="register.html"><img src="register.jpeg" height=90 width=130 > </a></font>
+<FONT><b><a href="abtus.html"><img src="abtus.jpg" height=90 width=130 > </a></font>
+<FONT><b><a href="contact.html"><img src="cntus.jpeg" height=90 width=130 > </a></font></td>
+<td>
+Contact Us
+
+K. J. SOMAIYA INSTITUTE OF ENGINEERING & INFORMATION TECHNOLOGY
+
+Somaiya Ayurvihar Complex,
+
+Eastern Express Highway,
+
+Near Everard Nagar,
+
+Sion (East), Mumbai – 400 022.
+
+ 
+
+Phone: 91-22-24080331
+
+Fax:    91-22-24028804
+
+Email: info@tech.somaiya.edu
+</td>
+</tr>
+</table>
+

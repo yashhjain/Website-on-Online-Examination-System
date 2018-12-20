@@ -1,0 +1,24 @@
+
+<html>
+<head>
+<title>Untitled Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="dummy.css">
+<body>
+<?php
+include("header.php");
+?>
+
+<table width="50%"  height="50%"   border="0" >
+  <tr>
+    <td width="7%" height="65" valign="bottom"><img src="HLPBUTT2.JPG" width="50" height="50" align="middle"></td>
+
+    <td width="93%" valign="bottom" > <a href="quiz.php" >QUESTIONS </a></td>
+  </tr>
+  <tr>
+    <td height="58" valign="bottom"><img src="DEGREE.JPG" width="43" height="43" align="middle"></td>
+    <td valign="bottom"> <a href="result.php" >Result </a></td>
+  </tr>
+</table>
+</body>
+</html>

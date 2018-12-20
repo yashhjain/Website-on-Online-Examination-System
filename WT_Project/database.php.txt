@@ -1,0 +1,9 @@
+<?php
+$cn=mysql_connect("mysql3.000webhost.com","a2713416_root","root1234")or die("Could connect to mysql");
+
+mysql_select_db("a2713416_quiz",$cn)  or die("Could connect to Database");
+$mysql_host = "mysql3.000webhost.com";
+$mysql_database = "a2713416_quiz";
+$mysql_user = "a2713416_root";
+$mysql_password = "root1234";
+?>

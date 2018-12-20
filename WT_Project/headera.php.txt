@@ -1,0 +1,30 @@
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+-->
+</style>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" >
+  <tr><td width="10%"><th align="left" height=90 width=130 > 
+    <a href="index.php" target="index"> <img src="scholastic.png" height=90 width=130 ></th></a>
+
+<th height=90 align="center"><font face="Maiandra GD" size="10" color="firebrick">KJSIEIT SCHOLASTIC</font></th>
+  <table width="100%">
+  <tr>
+    <td aling=right>
+	<?php
+	if(isset($_SESSION['alogin']))
+	{
+	 echo "<div align=\"right\"><strong><a href=\"logina.php\">Admin Home</a>|<a href=\"signouta.php\">Signout</a></strong></div>";
+	 }
+	 else
+	 {
+	 	echo "&nbsp;";
+	 }
+	?>
+	</td>
+  </tr>
+</table>
+

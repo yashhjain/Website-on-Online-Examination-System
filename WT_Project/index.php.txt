@@ -1,0 +1,32 @@
+<?php
+session_start();
+?>
+<html>
+<head>
+<title>Wel come to Online Exam</title>
+
+<link rel="stylesheet" type="text/css" href="dummy.css">
+</head>
+
+<body>
+<?php
+include("header.php");
+include("database.php");
+extract($_POST);
+
+?>
+<table id="t2" border=0 align="center" width="100%" height="84%">
+<tr>
+<td width=130><FONT><b><a href="http://www.somaiya.edu/VidyaVihar/kjsieit"><img src="somaiya.jpg" alt="somaiya" height=90 width=130 > </a></font>
+<FONT><b><a href="login.php"><img src="login.jpeg" alt="sign" height=90 width=130 > </a></font>
+<FONT><b><a href="signup.php"><img src="register.jpeg" alt="register"height=90 width=130 > </a></font>
+<FONT><b><a href="abtus.php"><img src="abtus.jpg" alt="about us" height=90 width=130 > </a></font>
+<FONT><b><a href="contact.php"><img src="cntus.jpeg" alt="contact" height=90 width=130 > </a></font></td>
+<td> <H1>WELCOME TO ONLINE EXAMINATION</H1>
+<P></P></td>
+</tr>
+ 
+</table>
+
+</body>
+</html>

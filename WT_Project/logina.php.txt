@@ -1,0 +1,48 @@
+<?php
+session_start();
+error_reporting(1);
+?>
+
+<html>
+<head>
+<title>Adminstrative AreaOnline test </title>
+
+<link rel="stylesheet" type="text/css" href="dummy.css">
+
+</head>
+
+<body>
+<?php
+include("headera.php");
+extract($_POST);
+if(isset($submit))
+{
+	include("database.php");
+	$rs=mysql_query("select * from mst_admin where loginid='$loginid' and pass='$pass'",$cn) or die(mysql_error());
+	if(mysql_num_rows($rs)<1)
+	{
+		echo "<BR><BR><BR><BR><div > Invalid User Name or Password<div>";
+		exit;
+		
+	}
+	$_SESSION['alogin']="true";
+	
+}
+else if(!isset($_SESSION[alogin]))
+{
+	echo "<BR><BR><BR><BR><div > Your are not logged in<br> Please <a href=indexa.php>Login</a><div>";
+		exit;
+}
+?>
+
+<p align="center">Welcome to Admistrative Area </p>
+<div style="margin:auto;width:90%;height:500px;box-shadow:2px 1px 2px 2px #CCCCCC;text-align:left">
+<div style="margin-left:20%;padding-top:5%">
+<p ><a href="subadd.php">Add Subject</a></p>
+<p ><a href="testadd.php">Add Test</a></p>
+<p ><a href="questionadd.php">Add Question </a></p>
+<p align="center">&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

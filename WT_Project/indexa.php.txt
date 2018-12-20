@@ -1,0 +1,49 @@
+<?php
+session_start()
+?>
+
+
+<html>
+<head>
+<title>Administrative Login - Online Exam</title>
+
+<link rel="stylesheet" type="text/css" href="dummy.css">
+</head>
+
+<body>
+<?php
+include("headera.php");
+?>
+
+
+<H2><p  align="center">Adminstrative Login </p></H2>
+<form name="form1" method="post" action="logina.php">
+<table width="490" border="0">
+  <tr>
+    <td width="106"></td>
+    <td width="132"><img src="login.jpg" width="131" height="155"></td>
+    <td width="238"><table width="219" border="0" align="center">
+  <tr>
+    <td width="163" >Login ID </td>
+    <td width="149"><input name="loginid" type="text" id="loginid"></td>
+  </tr>
+  <tr>
+    <td >Password</td>
+    <td><input name="pass" type="password" id="pass"></td>
+  </tr>
+  <tr>
+    <td >&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td >&nbsp;</td>
+    <td><input name="submit" type="submit" id="submit" value="Login"></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+
+</form>
+
+</body>
+</html>

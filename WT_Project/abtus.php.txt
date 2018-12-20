@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dummy.css">
+<title>WELCOME TO KJSIEIT SCHOLASTIC : TEST YOUR LEARNING!!!</title>
+</head>
+<body >
+<?php
+include("header.php");
+?>
+
+<table id="t2" border=0 align="center" width="100%" height="84%">
+<tr>
+<td width=130><FONT><b><a href="http://www.somaiya.edu/VidyaVihar/kjsieit"><img src="somaiya.jpg" height=90 width=130 > </a></font>
+<FONT><b><a href="sign.html"><img src="login.jpeg" height=90 width=130 > </a></font>
+<FONT><b><a href="register.html"><img src="register.jpeg" height=90 width=130 > </a></font>
+<FONT><b><a href="abtus.html"><img src="abtus.jpg" height=90 width=130 > </a></font>
+<FONT><b><a href="contact.html"><img src="cntus.jpeg" height=90 width=130 > </a></font></td>
+<td> K. J. Somaiya Institute of Engineering and Information Technology (KJSIEIT), was established by the Somaiya Trust in the year 2001, at Ayurvihar campus, Sion. The institute was set up primarily in response to the need for imparting quality education in the modern fields of Information Technology and allied branches of Engineering and Technology, a big leap to develop ourselves into a prosperous nation of the 21st century. The institute aims to provide the necessary dynamism in the light of expanding knowledge and changing socio-economic requirements of the modern society. From its inception, the institute has been striving to develop itself into an institution of quality and excellence in the field of technical education, in consonance with the contemporary and future needs of our society in concurrence with a fine blend of traditional values and modern education. The ideas and ideals on which Pujya Shri.     K. J. Somaiya built, this Institute revolve around imbibing cultural  and spiritual values among the youth while simultaneously imparting technical perspectives and world wide trends in IT sectors.
+
+ 
+
+KJSIEIT is located on the eastern express highway at Ayurvihar, Sion, surrounded by industries and business establishments in the heart of metropolitan city, Mumbai. The institute extends over a sprawling 85 acres of which 5 acres have been ear-marked for this Institute with an easy access to railway stations namely Sion and Chunabhatti to a distance of 1 km. as well as connected to Everard Nagar bus stop. The domestic and international airports are at a distance of 15 kms from the institute.
+
+ </td>
+</tr>
+</table>
+

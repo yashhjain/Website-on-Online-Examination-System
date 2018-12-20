@@ -1,0 +1,25 @@
+<?php
+session_start();
+?>
+
+<html>
+<head>
+<title>Online subject - subject List</title>
+
+<link rel="stylesheet" type="text/css" href="dummy.css">
+</head>
+<body>
+<?php
+include("header.php");
+include("database.php");
+echo "<h2 > Select Subject to Give exam</h2>";
+$rs=mysql_query("select * from mst_subject");
+echo "<table align=center>";
+while($row=mysql_fetch_row($rs))
+{
+	echo "<tr><td align=center ><a href=showtest.php?subid=$row[0]><font size=4>$row[1]</font></a>";
+}
+echo "</table>";
+?>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+background-color:cornsilk;
+}
+h1{
+position:relative;
+text-align:center;
+}
+h3{
+position:relative;
+text-align:center;
+}
+img{
+float:left;
+display:block;
+position:relative;
+}
+hleft{
+display:block;
+}
+table{
+box-shadow: 3px 3px 10px gray;
+background-color:lightyellow;
+border:1px solid gray ;
+border-radius:7px;
+padding:5px;
+margin:auto;
+margin-bottom:5px;
+
+}
+
+td{
+
+text-align:center;
+margin:auto;
+}
+
